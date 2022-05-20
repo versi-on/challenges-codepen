@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(43, 42, 42);
+}
+
+h1 {
+    padding-top: 1rem;
+    font-size: 5em;
+    font-weight: 800;
+    letter-spacing: 0.07ex;
+    text-align: center;
+    color: #fcfcfc;
+    /* text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+        0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+        0 20px 20px rgba(0, 0, 0, 0.15); */
+    text-shadow: 2px 2px 2px rgb(6, 1, 19);
+    transition: all 300ms ease-out;
+}
+
+h2 {
+    padding: 2.5rem 0 0.5rem 0;
+}
+
+h2:first-child {
+    padding-top: 1rem;
+}
+
+header h2 {
+    font-size: 3rem;
+    padding: 1rem 0;
+    color: #fcfcfcf1;
+    text-shadow: 2px 2px 2px rgba(6, 1, 19, 0.769);
+}
+
+p {
+    padding: 0.5rem 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+a {
+    font-weight: bold;
+    color: #40599b;
+}
+
+a:hover {
+    color: #409b90;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8d6f7;
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/17/17/11/sea-bridge-1748162_1280.jpg");
+    background-size: 120%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: 1px -5px 15px 0px rgba(204, 203, 203, 0.59) inset;
+}
+
+main {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+img {
+    width: 30vw;
+    height: auto;
+    margin: 0.8rem 1rem 0 0;
+    border-radius: 3px;
+}
+
+.article-content {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .article-content {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    img {
+        width: 100%;
+    }
+}
