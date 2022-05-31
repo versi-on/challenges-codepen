@@ -12,6 +12,3 @@ Additionally I implement some visible effect by page scrolling and style the pag
 
 
 [check it out on codepen](https://codepen.io/versi-on/pen/mdXwXPN)
-
-[live demo](https://codepen.io/versi-on/pen/mdXwXPN)
-
